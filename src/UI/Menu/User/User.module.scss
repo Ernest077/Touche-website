@@ -1,0 +1,21 @@
+.User {
+    width: 281px;
+    height: 174px;
+    background-color: white;
+    position: fixed;
+    margin-top: 258px;
+    display: grid;
+    justify-content: flex-start;
+    text-align: start;
+    .UserChild {
+        margin-left: 15px;
+        .UserSpan {
+            cursor: pointer;
+            font-family: 'Open sans' sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 30px;
+            text-align: left;
+        }
+    }
+}

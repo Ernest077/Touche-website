@@ -1,0 +1,20 @@
+.NonePage {
+    opacity: 70%;
+    width: 278px;
+    min-height: 72px;
+    background-color: white;
+    align-items: center;
+    position: fixed;
+    margin-top: 54px;
+        .p {
+            text-align: start;
+            margin-left: 15px;
+            cursor: pointer;
+            min-height: 1px;
+            font-family: 'Open snas' sans-serif;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 30px;
+            text-align: left;
+        }
+}

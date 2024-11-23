@@ -1,0 +1,16 @@
+.BestSellerProduct {
+    width: 1200px;
+    margin: 30px 0px 40px 0px;
+    .ChildMain{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+        justify-content: center;
+        .Child {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+    }
+}

@@ -1,0 +1,47 @@
+.ProductPart3 {
+    width: 350px;
+    min-height: 366px;
+
+    .Child1 {
+        width: 350px;
+        height: 252px;
+    }
+
+    .Child2 {
+        background-color: #fff;
+        width: 285px;
+        min-height: 168px;
+        margin: -50px 0px 0px 65px;
+        padding: 10px;
+        .Child2_Child {
+            justify-content: space-between;
+            align-items: center;
+            display: flex;
+            font-family: "Open Sans", sans-serif;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 16.34px;
+            text-align: left;
+            opacity: 25%;
+            p{
+                margin: 0;
+            }
+        }
+
+        h1 {
+            font-family: "Raleway", sans-serif;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 24px;
+            text-align: left;
+        }
+
+        p {
+            font-family: "Open Sans", sans-serif;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 24px;
+            text-align: left;
+        }
+    }
+}

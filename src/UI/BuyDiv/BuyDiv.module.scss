@@ -1,0 +1,17 @@
+.BuyDiv {
+    cursor: pointer;
+    display: flex;
+    min-width: 50px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    background: #1a1b1b;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: 0.5s;
+    &:hover{
+        color: black;
+        background-color: #FFFFFF;
+    }
+}

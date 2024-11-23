@@ -1,0 +1,21 @@
+.Search {
+    width: 278px;
+    height: 72px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    margin-top: 156px;
+    .SearchInput {
+        width: 206px;
+        height: 24px;
+        border: none;
+        border-bottom: 1px solid black;
+        font-family: 'Open'sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,12 @@
+.Novedades {
+    width: 974px;
+    margin: 30px 0px 40px 0px;
+    .FirstChild {
+        margin: 20px 0px 20px 0px;
+        min-height: 282px;
+        gap: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}

@@ -1,0 +1,114 @@
+.PhotoBar {
+    width: 672px;
+    height: 312px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+
+    .PhotoBarChild {
+        margin: 10px;
+
+        .Child1,
+        .Child2,
+        .Child3 {
+            margin: 10px 0px 30px 0px;
+        }
+
+        .Child1 {
+            padding: 3px;
+            display: flex;
+            align-items: center;
+            width: 90px;
+            height: 42px;
+            background-color: #000;
+            font-family: sans-serif;
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 16.34px;
+            text-align: center;
+        }
+
+        .Child2 {
+            width: 485px;
+            min-height: 36px;
+
+            h1 {
+                font-family: sans-serif;
+                font-size: 21px;
+                font-weight: 500;
+                line-height: 30px;
+                text-align: left;
+                margin: 0;
+            }
+
+            p {
+                font-family: sans-serif;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                text-align: left;
+                margin: 0;
+            }
+        }
+
+        .Child3 {
+            width: 175px;
+            height: 22px;
+            font-family: sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 24.51px;
+            text-align: left;
+            opacity: 50%;
+        }
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .PhotoBar{
+        width: 530px;
+        background-size: 100% 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .PhotoBar {
+        width: 374px;
+        height: 246px;
+        background-size: 115% 100%;
+
+        .PhotoBarChild {
+
+            .Child1,
+            .Child2,
+            .Child3 {
+                margin: 10px 0px 20px 0px;
+            }
+
+            .Child1 {
+                width: 75px;
+                height: 35px;
+                font-size: 8px;
+            }
+
+            .Child2 {
+                width: 350px;
+
+                h1 {
+                    font-size: 16px;
+                }
+
+                p {
+                    font-size: 12px;
+                }
+            }
+
+            .Child3 {
+                width: 134px;
+                height: 19px;
+                font-size: 12px;
+            }
+        }
+    }
+
+}

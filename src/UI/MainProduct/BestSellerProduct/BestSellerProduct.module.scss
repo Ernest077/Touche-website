@@ -1,0 +1,88 @@
+.Product {
+    width: 219px;
+    height: 315px;
+
+    .FirstChild {
+        width: 219px;
+        height: 192px;
+
+        div {
+            width: 90px;
+            height: 42px;
+            display: flex;
+            align-items: center;
+            position: absolute;
+            margin-top: 10px;
+            margin-left: 8px;
+            background-color: #000;
+            color: white;
+            font-family: Open Sans;
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 16.34px;
+            text-align: center;
+        }
+    }
+
+    .SecondChild {
+
+        p,
+        h1 {
+            margin: 5px 0px 10px 0px;
+        }
+
+        p {
+            width: 175.85px;
+            height: 19.71px;
+            font-family: "Open Sans", sans-serif;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 16.34px;
+            text-align: left;
+            opacity: 30%;
+        }
+
+        h1 {
+            font-family: "Open Sans", sans-serif;
+            font-size: 19px;
+            font-weight: 500;
+            line-height: 18px;
+            text-align: left;
+            font-weight: 700;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .Product {
+        width: 157px;
+        height: 247px;
+
+        .FirstChild {
+            background-size: 100% 100%;
+            width: 157px;
+            height: 138px;
+
+            div {
+                width: 65px;
+                height: 28px;
+                font-size: 9px;
+                line-height: 12.26px;
+            }
+        }
+
+        .SecondChild {
+            font-size: 12px;
+            p,
+            h1 {
+                margin: 1px 0px 1px 0px;
+            }
+            h1 {
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 20px;
+            }
+        }
+    }
+}

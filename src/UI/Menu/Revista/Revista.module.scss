@@ -1,0 +1,25 @@
+.Revista {
+    width: 278px;
+    min-height: 72px;
+    background-color: white;
+    align-items: center;
+    position: fixed;
+    margin-top: 54px;
+
+    .RevistaChild {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        .p {
+            text-align: start;
+            margin-left: 15px;
+            cursor: pointer;
+            min-height: 1px;
+            font-family: 'Open snas' sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 30px;
+            text-align: left;
+        }
+    }
+}

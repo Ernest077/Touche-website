@@ -1,0 +1,41 @@
+@keyframes slide-left {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+.Guapa {
+    margin: 30px 0 0 0;
+    padding: 40px 0;
+    width: 100%;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 10px;
+    border-right: none;
+    border-left: none;
+    border-image: linear-gradient(to right, #01F2F6, #4000FF, #F601DE) 1;
+    position: relative;
+}
+.FirstChild {
+    font-family: "Open Sans", sans-serif;
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 48px;
+    display: flex;
+    white-space: nowrap;
+    height: 100px;
+    align-items: center;
+}
+.FirstH1 {
+    display: inline-block;
+    white-space: nowrap;
+    animation: slide-left 15s linear infinite;
+}
+.SecondChild{
+    gap: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
